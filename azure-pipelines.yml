@@ -5,7 +5,7 @@
 
 trigger:
 - master
-- task: Maven@1.6
+- task: Maven@2
   inputs:
     mavenPomFile: 'pom.xml'
     publishJUnitResults: true
